@@ -2,6 +2,7 @@ package com.Recursion;
 import java.util.*;
 public class Main {
 
+        // delete the middle element from a stack, and print the stack in reverse.
         public static void main(String[] args) {
             Stack<Integer> st=new Stack<Integer>();
             Scanner sc =new Scanner(System.in);

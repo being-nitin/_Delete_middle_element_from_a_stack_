@@ -11,6 +11,7 @@ public class Main {
             for(int i=0;i<n;i++)
             {
                 arr[i]=sc.nextInt();
+                // with putting the values in an array, pushing the value in a stack at the same time.
                 st.push(arr[i]);
             }
             deletemid(st,st.size(),0);

@@ -15,6 +15,8 @@ public class Main {
                 st.push(arr[i]);
             }
             deletemid(st,st.size(),0); // will return an array which will not consist the middle element.
+
+            // now it will print the array in reverse till the stack is empty.
             while(!st.empty())
             {
                 int p=st.pop();

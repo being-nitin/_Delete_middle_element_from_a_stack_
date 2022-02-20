@@ -14,7 +14,7 @@ public class Main {
                 // with putting the values in an array, pushing the value in a stack at the same time.
                 st.push(arr[i]);
             }
-            deletemid(st,st.size(),0);
+            deletemid(st,st.size(),0); // will return an array which will not consist the middle element.
             while(!st.empty())
             {
                 int p=st.pop();
